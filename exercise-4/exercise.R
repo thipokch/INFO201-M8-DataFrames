@@ -1,11 +1,11 @@
 # Exercise 2: Data Frames
 
 # Load R's "USPersonalExpenditure" dataest using the `data()` function
-
+expenses <-  data("USPersonalExpenditure")
 
 # The variable USPersonalExpenditure is now accessible to you. Unfortunately, it's not a data.frame
 # Test this using the is.data.frame function
-
+is.data.frame(expenses)
 
 # Luckily, you can simply pass the USPersonalExpenditure variable to the data.frame function
 # to convert it a data.farme
