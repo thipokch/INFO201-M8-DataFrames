@@ -9,7 +9,8 @@ is.data.frame(expenses)
 
 # Luckily, you can simply pass the USPersonalExpenditure variable to the data.frame function
 # to convert it a data.farme
-
+df.expenses <- data.frame(expenses)
+is.data.frame(df.expenses)
 # Create a new variable by passing the USPersonalExpenditure to the data.frame function
 
 
